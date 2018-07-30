@@ -1,10 +1,20 @@
 
-.primary-title
+%primary-title
     font-weight: bold    
     font-family: 'Quicksand', sans-serif
     font-size: 4rem
     //color: #fab702
-    color: white
+    //color: white
     border-bottom: 2px solid #fab702
     margin: 2rem
     text-transform: uppercase
+
+
+.primary-title--white
+    @extend %primary-title
+    color: white
+  
+
+.primary-title--orange
+    @extend %primary-title
+    color: #fab702
