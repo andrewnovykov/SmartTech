@@ -1,7 +1,7 @@
 
 .home-our-services
     //background-image: url(../img/inflicted.png)
-    background: linear-gradient( to right bottom, rgba( $color-orange, 1), rgba(#ccc, 1), #000000 )
+    background: linear-gradient( to right bottom, rgba( $color-orange, 1), rgba(#fff, 1), #cccccc )
     background-size: cover
     background-position: top
     display: flex
@@ -19,9 +19,12 @@
 .home-our-services-item
     display: flex
     flex-direction: row
-    flex-wrap: nowrap
-    
+    flex-wrap: nowrap    
     margin-top: 2rem
+
+    &:nth-child(even)
+        .home-our-services-img
+            order: 2
     
 
 
@@ -29,6 +32,7 @@
 .home-our-services-img
     max-width: 40%
     flex-grow: 1
+    text-align: center
 
     img 
         width: 100%
@@ -39,3 +43,27 @@
     padding: 2rem
     max-width: 74rem
     background-color: white
+
+
+.service-item-title
+    font-weight: 400
+    text-transform: uppercase
+    color: gray 
+    font-size: 2.5rem
+    border-left: 5px solid $color-orange
+    padding-left: 1rem
+    margin-bottom: 1rem
+
+.service-item-sublist
+    padding: 2rem
+
+    li 
+        list-style: none
+    
+    a 
+        color: $color-orange
+        text-decoration: none
+        cursor: pointer
+        
+    
+    
