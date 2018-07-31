@@ -1,3 +1,9 @@
+button {
+  color: #f78e1e;
+  border: 1px solid #f78e1e;
+  background-color: transparent;
+  padding: 0.5rem; }
+
 .container {
   max-width: 1360px;
   margin: auto; }
@@ -407,7 +413,9 @@ body {
 
 .home-seo-text {
   margin-top: 4rem;
-  margin-bottom: 6rem; }
+  padding-bottom: 6rem;
+  padding-right: 2rem;
+  padding-left: 2rem; }
 
 .footer {
   background: url(../img/house.jpg);
@@ -426,6 +434,50 @@ body {
 .footer-social,
 .footer-contacts {
   width: 30%;
-  align-self: center; }
+  align-self: flex-start; }
+  .footer-subscribe span,
+  .footer-social span,
+  .footer-contacts span {
+    color: #f78e1e;
+    font-weight: 700;
+    font-size: 18px; }
+  .footer-subscribe hr,
+  .footer-social hr,
+  .footer-contacts hr {
+    border-color: 1px solid #cccccc; }
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 1rem; }
+  .footer-form button,
+  .footer-form input {
+    width: 50%;
+    margin-top: 1rem; }
+
+.social-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-top: 1rem; }
+
+.footer-contacts ul {
+  margin-top: 1rem; }
+.footer-contacts li {
+  list-style: none;
+  text-decoration: none; }
+  .footer-contacts li a {
+    text-decoration: none; }
+
+.social-item {
+  width: 2rem;
+  height: 2rem;
+  background-color: #f78e1e;
+  margin-right: 1rem;
+  text-align: center; }
+  .social-item a {
+    margin: o auto; }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@
     background-position: center
     min-height: 36rem
     padding-top: 10rem
-    
+
 
 .footer-wrap
     display: flex
@@ -12,8 +12,62 @@
     flex-wrap: nowrap
     justify-content: space-between
 
+
 .footer-subscribe,
 .footer-social,
 .footer-contacts
     width: 30%
-    align-self: center
+    align-self: flex-start
+
+
+    span
+        color: $color-orange
+        font-weight: 700
+        font-size: 18px
+
+    hr
+        border-color: 1px solid #cccccc
+
+.footer-subscribe
+
+
+.footer-form
+    display: flex
+    flex-direction: column
+    flex-wrap: nowrap
+    margin-top: 1rem
+
+    button,
+    input
+        width: 50%
+        margin-top: 1rem 
+
+
+
+
+.social-wrap
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    justify-content: flex-start
+    margin-top: 1rem
+
+.footer-contacts
+    ul
+        margin-top: 1rem
+
+    li
+        list-style: none
+        text-decoration: none
+
+        a
+            text-decoration: none
+
+.social-item
+    +size(2rem)
+    background-color: $color-orange
+    margin-right: 1rem
+    text-align: center
+
+    a
+        margin: o auto
