@@ -23,15 +23,16 @@ body {
   font-weight: bold;
   font-family: "Quicksand", sans-serif;
   font-size: 4rem;
-  border-bottom: 2px solid #fab702;
   margin: 2rem;
   text-transform: uppercase; }
 
 .primary-title--white {
-  color: white; }
+  color: white;
+  border-bottom: 2px solid #fff; }
 
 .primary-title--orange {
-  color: #fab702; }
+  color: #fab702;
+  border-bottom: 2px solid #fab702; }
 
 .home-header {
   height: 100vh;
@@ -359,8 +360,13 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-top: 4rem;
-  margin-bottom: 6rem; }
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  background-image: url(../img/white-polygon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
 
 .home-our-projects-grid {
   display: flex;
@@ -379,7 +385,8 @@ body {
 
 .home-our-affiliations {
   background-color: #fab702;
-  margin-top: 4rem; }
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
 
 .home-our-affiliations-list {
   display: flex;
