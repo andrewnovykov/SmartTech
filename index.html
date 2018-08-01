@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+          crossorigin="anonymous">
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -66,9 +68,11 @@
                 </div>
                 <div class="home-header-features">
 
-                    <div class="home-header-features-column animated bounceInLeft">
+                    <div class="home-header-features-column animated bounceInLeft" id="#smooth-scroll-menu-2">
                         <div class="features-icon">
-                          <img src="icons/icon-camera.svg" alt="">
+                          <a href="#control" class="go-to-target">
+                            <img src="icons/icon-camera.svg" alt="">
+                          </a>
                         </div>
                         <div class="features-icon">
                           <img src="icons/icon-camera.svg" alt="">
@@ -143,15 +147,24 @@
 
           </div>
 
+          <div id="smooth-scroll-menu">
+            <a href="#ourservices" class="mouse-icon hidden-sm">
+              <span class="wheel"></span>
+            </a>
+          </div>
+          
+
         </header>
 
 
 
           <div class="home-our-services">
 
-            <div class="primary-title--white">Our Services</div>
+           
 
             <div class="container">
+
+              <div id="ourservices" class="primary-title--white">Our Services</div>
 
               <div class="home-our-services-list">
                 <div class="home-our-services-item animated bounceInLeft">
@@ -165,7 +178,7 @@
               
                   </div>
                   <div class="home-our-services-content">
-                    <span class="service-item-title">SECURITY</span>
+                    <a href="" class="services-content-title"><span class="service-item-title">SECURITY</span></a>
                     <div class="service-item-text">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat! Ea quibusdam rerum atque distinctio, aliquam
                         odio mollitia deleniti nihil rem sequi debitis, voluptatem nulla, tempora aspernatur suscipit dignissimos vel!
@@ -208,7 +221,7 @@
 
                   </div>
                   <div class="home-our-services-content">
-                    <span class="service-item-title">CONTROL</span>
+                  <a href="" class="services-content-title"><span id="control" class="service-item-title">CONTROL</span></a>
                     <div class="service-item-text">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat! Ea quibusdam rerum atque distinctio, aliquam
                         odio mollitia deleniti nihil rem sequi debitis, voluptatem nulla, tempora aspernatur suscipit dignissimos vel! Lorem
@@ -218,7 +231,7 @@
                     </div>
                     <div class="service-item-sublist">
                       <ul>
-                        <li>
+                        <li >
                           <a>link</a>
                         </li>
                         <li>
@@ -241,7 +254,7 @@
 
                   </div>
                   <div class="home-our-services-content">
-                    <span class="service-item-title">entertainments</span>
+                    <a href="" class="services-content-title"><span class="service-item-title">entertainments</span></a>
                     <div class="service-item-text">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat! Ea quibusdam rerum atque distinctio, aliquam
                         odio mollitia deleniti nihil rem sequi debitis, voluptatem nulla, tempora aspernatur suscipit dignissimos vel! Lorem
@@ -418,13 +431,12 @@
                     <hr>
                   <ul>
                     <li>
-                    <img src="icons/icon-climat.svg" alt="">  email
+                    <i class="fas fa-at"></i>  email
                     </li>
                     <li>
-                      <img src="icons/icon-climat.svg" alt="">
+                      <i class="fas fa-mobile-alt"></i>
                       phone</li>
-                    <li><img src="icons/icon-climat.svg" alt="">
-                      !!!!</li>
+                    
 
                   </ul>
                 </div>
@@ -432,15 +444,15 @@
                   <span>Our social</span>
                   <hr>
                   <div class="social-wrap">
-                    <div class="social-item">
-                      <a href="">FB</a>
-                    </div>
-                    <div class="social-item">
-                      <a href="">FB</a>
-                    </div>
-                    <div class="social-item">
-                      <a href="">FB</a>
-                    </div>
+                    <a href="" class="social-item">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="social-item">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="" class="social-item">
+                      <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
 
 
@@ -526,6 +538,13 @@
                 </section>
 
 
+          </div>
+
+
+          <div class="top-off-page ">
+            <a href="#">
+              <i class="fa fa-angle-double-up"></i>
+            </a>
           </div>
 
           <!--  end pop-up section -->
