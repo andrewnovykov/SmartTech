@@ -33,16 +33,29 @@
     max-width: 40%
     flex-grow: 1
     text-align: center
+    overflow: hidden
 
+    
     img 
         width: 100%
         height: 100%
+        transform: scale3d(1)
+        transition-duration: 1s
+
+        &:hover
+            transform: scale(1.5)
+
+        
 
 
 .home-our-services-content
     padding: 2rem
     max-width: 74rem
     background-color: white
+
+    // &:hover
+    //     box-shadow: inset 0 0 0 2px $color-orange
+
 
 
 .service-item-title
