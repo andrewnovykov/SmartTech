@@ -7,8 +7,6 @@ $(function(){
 });
 
 
-
-
 function workBelt() {
 
 	$('.thumb-unit').click(function(){
@@ -78,3 +76,12 @@ $('#smooth-scroll-menu-2 > div > a[href*="#"]:not([href="#"])').click(function()
     }
   }
 });
+
+
+let $btn = $('.btn-menu');
+
+$btn.click(function () {
+
+	$('body').toggleClass('show');
+
+})

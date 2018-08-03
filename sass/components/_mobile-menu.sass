@@ -1,0 +1,143 @@
+.btn-menu
+    display: none
+    border: 0
+    width: 40px
+    height: 25px
+    background-color: transparent
+    cursor: pointer
+    position: absolute
+    top: 20px
+    right: 20px
+    z-index: 9999
+
+
+
+
+.bar
+    display: block
+    position: absolute
+    width: 40px
+    height: 5px
+    background-color: $color-orange
+    transition: all 0.3s ease-in-out
+
+.bar
+    &:before
+        display: block
+        position: absolute
+        width: 40px
+        height: 5px
+        background-color: $color-orange
+        transition: all 0.3s ease-in-out
+.bar
+    &:after 
+        display: block
+        position: absolute
+        width: 40px
+        height: 5px
+        background-color: $color-orange
+        transition: all 0.3s ease-in-out
+
+
+.bar 
+    top: 10px
+    left: 0	
+
+	
+.bar
+    &:before 
+        position: absolute
+        content: ''
+        top: 10px
+        left: 0
+
+
+.bar
+    &:after 
+        position: absolute
+        content: ''
+        top: -10px
+        left: 0
+
+
+.text 
+    display: block
+    text-indent: 150%
+    white-space: nowrap
+    overflow: hidden	
+
+
+
+.show 
+    .bar 
+        background-color: transparent
+
+
+.show 
+    .bar
+        &:before 
+            top: 0
+            transform: rotate(45deg)	
+
+
+.show 
+    .bar
+        &:after 
+            top: 0
+            transform: rotate(-45deg)	
+
+.overlay 
+    width: 0
+    height: 100%
+    overflow: hidden
+    position: fixed
+    top: 0
+    left: 0
+    transition: width 0.3s ease-in
+    background-color: $color-mygray
+    opacity: 1
+    z-index: 8888
+    background: linear-gradient( to right bottom, rgba( $color-orange, 1), rgba(#fff, 1), #cccccc )
+    background-size: cover
+    background-position: top
+
+.show 
+    .overlay 
+        width: 100%
+        height: 100%
+        position: fixed
+
+
+
+nav 
+    ul 
+        list-style-type: none
+        position: relative
+        top: 50px
+        left: 50px
+        opacity: 0
+        transform: translateX(100px)
+        transition: all 0.3s 0.2s ease-out
+
+
+.show
+    nav
+        ul 
+            opacity: 1
+            transform: translateX(0)
+
+
+nav
+    a 
+        display: block
+        width: 200px
+        line-height: 42px
+        text-decoration: none
+        color: white
+        font-size: 2rem
+
+
+  
+
+
+

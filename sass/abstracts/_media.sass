@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1350px)
+    .home-our-services-img
+        flex: 1 0 100%
+
+
+@media only screen and (max-width: 1024px)
+    .home-our-services-item
+        display: flex
+        flex-direction: column
+        flex-wrap: nowrap    
+        margin: 2rem
+
+        &:nth-child(even)
+            .home-our-services-img
+                order: 0
+    
+    .home-our-services-img
+        max-width: 100%
+
+
+@media only screen and (max-width: 960px)
+    .home-header-slogan 
+        display: none
+
+    .home-header-slogan-mobile
+        color: #FFF
+        align-self: center
+        font-weight: bold    
+        font-family: 'Quicksand', sans-serif
+        font-size: 6vh
+        
+
+    .header-content
+        display: flex
+        flex-direction: column
+        flex-wrap: nowrap
+
+    .home-header-navbar
+        display: flex
+        flex-direction: column
+        flex-wrap: nowrap
+        align-items: center
+        //flex: 1 1 100%
+
+    .nav
+        flex: 1 1 100%
+
+        a 
+            margin: 10px
+
+    %primary-title
+        font-size: 5vh
+
+
+
+@media only screen and (max-width: 720px)
+    .nav
+        display: none
+
+    .btn-menu
+        display: block
+    // .footer-wrap
+    //     display: flex
+    //     flex-direction: column
+    //     flex-wrap: wrap
+
+    // .footer-subscribe,
+    // .footer-social,
+    // .footer-contacts
+    //     width: 100%
+    //     align-self: center
+        
+
+// min
+
+@media only screen and (min-width: 960px)
+    .home-header-slogan-mobile
+        display: none
+
+    
