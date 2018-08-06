@@ -47,6 +47,7 @@ button {
   100% {
     top: 25px;
     opacity: 0; } }
+
 .top-off-page {
   color: #999;
   background-color: #444;
@@ -100,13 +101,13 @@ button {
 
 .bar:before {
   position: absolute;
-  content: "";
+  content: '';
   top: 10px;
   left: 0; }
 
 .bar:after {
   position: absolute;
-  content: "";
+  content: '';
   top: -10px;
   left: 0; }
 
@@ -184,14 +185,14 @@ nav a {
   padding: 0; }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   line-height: 1.7;
   box-sizing: border-box; }
 
 .primary-title--white, .primary-title--orange {
   font-weight: bold;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 7vh;
   margin: 2rem;
   text-transform: uppercase; }
@@ -245,7 +246,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     color: white;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     cursor: pointer; }
     .nav a:hover {
       border-bottom: 2px solid #fab702; }
@@ -273,7 +274,7 @@ body {
     color: #FFF;
     align-self: center;
     font-weight: bold;
-    font-family: "Quicksand", sans-serif; }
+    font-family: 'Quicksand', sans-serif; }
 
 .home-header-features {
   flex-grow: 1;
@@ -318,6 +319,7 @@ body {
     opacity: 0.7; }
   100% {
     opacity: 0.8; } }
+
 .home-our-services {
   background: linear-gradient(to right bottom, #f78e1e, white, #cccccc);
   background-size: cover;
@@ -651,6 +653,7 @@ body {
 
 .footer-contacts ul {
   margin-top: 1rem; }
+
 .footer-contacts li {
   list-style: none;
   text-decoration: none; }
@@ -674,6 +677,7 @@ body {
 @media only screen and (max-width: 1350px) {
   .home-our-services-img {
     flex: 1 0 100%; } }
+
 @media only screen and (max-width: 1024px) {
   .home-our-services-item {
     display: flex;
@@ -682,59 +686,50 @@ body {
     margin: 2rem; }
     .home-our-services-item:nth-child(even) .home-our-services-img {
       order: 0; }
-
   .home-our-services-img {
     max-width: 100%; } }
+
 @media only screen and (max-width: 960px) {
   .home-header-slogan {
     display: none; }
-
   .home-header-slogan-mobile {
     color: #FFF;
     align-self: center;
     font-weight: bold;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 6vh; }
-
   .header-content {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap; }
-
   .home-header-navbar {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center; }
-
   .nav {
     flex: 1 1 100%; }
     .nav a {
       margin: 10px; }
-
   .primary-title--white, .primary-title--orange {
     font-size: 5vh; } }
+
 @media only screen and (max-width: 720px) {
   .nav {
     display: none; }
-
   .btn-menu {
     display: block; }
-
   .footer-wrap {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; }
-
   .footer-subscribe,
   .footer-social,
   .footer-contacts {
     width: 80%;
     align-self: center; }
-
   .footer-form input {
     width: 100%; }
-
   .thumb-container {
     display: flex;
     flex-direction: row;
@@ -744,7 +739,6 @@ body {
     height: 100%;
     width: 100%;
     align-items: stretch; }
-
   .thumb-unit {
     width: 90%;
     align-self: center;
@@ -752,42 +746,34 @@ body {
     flex: 1 1 30rem; }
     .thumb-unit:last-child {
       margin: 1rem; }
-
   .home-popup {
     overflow: auto; } }
+
 @media only screen and (max-width: 490px) {
   .service-item-title {
     font-size: 1.5rem; }
-
   .home-header-slogan-mobile {
     font-size: 1.8rem; }
-
   .home-header-navbar-logo {
     align-self: flex-start; }
-
   #particles-js {
     display: none; }
-
   .popup-title {
     margin-top: 3rem; }
-
   .popup-title-text {
     font-size: 1.5rem;
     padding-top: 1rem; }
-
   .thumb-overlay strong {
     font-size: 1.6rem; }
-
   .comp strong {
     font-size: 1.6rem; } }
+
 @media only screen and (max-width: 360px) {
   .features-phone {
     display: none; }
-
   .home-our-services-item {
     margin: 1rem; } }
+
 @media only screen and (min-width: 960px) {
   .home-header-slogan-mobile {
     display: none; } }
-
-/*# sourceMappingURL=main.css.map */

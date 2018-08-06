@@ -59,19 +59,91 @@
 
     .btn-menu
         display: block
-    // .footer-wrap
-    //     display: flex
-    //     flex-direction: column
-    //     flex-wrap: wrap
 
-    // .footer-subscribe,
-    // .footer-social,
-    // .footer-contacts
-    //     width: 100%
-    //     align-self: center
+    .footer-wrap
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+
+    .footer-subscribe,
+    .footer-social,
+    .footer-contacts
+        width: 80%
+        align-self: center
+    
+    .footer-form
+        input
+            width: 100%
+
+    .thumb-container
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-around
+        margin-top: 20px
+        height: 100%
+        width: 100%
+        align-items: stretch
+
+
+    .thumb-unit
+        width: 90%
+        align-self: center
+        margin: 1rem
+        flex: 1 1 30rem
+
+        &:last-child
+            margin: 1rem 
+    
+    .home-popup
+        overflow: auto
+
         
 
+
+@media only screen and (max-width: 490px)
+    .service-item-title
+        font-size: 1.5rem
+
+    .home-header-slogan-mobile
+        font-size: 1.8rem
+
+    .home-header-navbar-logo
+        align-self: flex-start
+
+    #particles-js
+        display: none
+
+    .popup-title
+        margin-top: 3rem
+
+    .popup-title-text
+        font-size: 1.5rem 
+        padding-top: 1rem
+
+    .thumb-overlay
+        strong
+            font-size: 1.6rem
+
+    .comp
+        strong
+            font-size: 1.6rem
+
+
+@media only screen and (max-width: 360px)
+    .features-phone 
+        display: none
+
+    .home-our-services-item
+        margin: 1rem
+
+
 // min
+
+
+
+
+
 
 @media only screen and (min-width: 960px)
     .home-header-slogan-mobile
