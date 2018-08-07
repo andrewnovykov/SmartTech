@@ -1,0 +1,31 @@
+.inner-header
+  height: 40vh
+  background: url(../img/background.jpg)
+  background-size: cover
+  background-position: bottom
+  position: relative
+//   /background-attachment: fixed
+  //clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%)
+
+  
+
+.header-inner
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+
+
+.header-inner-content
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: center
+
+  span 
+    align-self: center
+    @extend %primary-title
+    color: #ffffff
+    border-bottom: 2px solid #ffffff
+    text-shadow: 0px 2px 3px #000000
+    background-clip: text
+    

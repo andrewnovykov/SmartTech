@@ -189,7 +189,7 @@ body {
   line-height: 1.7;
   box-sizing: border-box; }
 
-.primary-title--white, .primary-title--orange {
+.primary-title--white, .primary-title--orange, .header-inner-content span {
   font-weight: bold;
   font-family: "Quicksand", sans-serif;
   font-size: 7vh;
@@ -249,6 +249,9 @@ body {
     cursor: pointer; }
     .nav a:hover {
       border-bottom: 2px solid #fab702; }
+
+.active {
+  border-bottom: 2px solid #fab702; }
 
 .header-content {
   display: flex;
@@ -671,6 +674,71 @@ body {
     color: white;
     vertical-align: center; }
 
+.inner-header {
+  height: 40vh;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative; }
+
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+.header-inner-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center; }
+  .header-inner-content span {
+    align-self: center;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    text-shadow: 0px 2px 3px #000000;
+    background-clip: text; }
+
+.contact {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  padding-right: 2rem;
+  padding-left: 2rem; }
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+.contact-info {
+  flex: 1 1 40%;
+  margin: 2rem; }
+  .contact-info p {
+    margin-bottom: 2rem; }
+  .contact-info ul {
+    margin-top: 1rem; }
+  .contact-info li {
+    list-style: none;
+    text-decoration: none; }
+    .contact-info li a {
+      text-decoration: none; }
+    .contact-info li i {
+      color: #f78e1e; }
+
+.contact-form {
+  flex: 1 1 40%;
+  margin: 2rem; }
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .contact-form form input {
+      margin-bottom: 1rem; }
+    .contact-form form textarea {
+      margin-bottom: 1rem; }
+    .contact-form form button {
+      width: 50%; }
+
 @media only screen and (max-width: 1350px) {
   .home-our-services-img {
     flex: 1 0 100%; } }
@@ -712,7 +780,7 @@ body {
     .nav a {
       margin: 10px; }
 
-  .primary-title--white, .primary-title--orange {
+  .primary-title--white, .primary-title--orange, .header-inner-content span {
     font-size: 5vh; } }
 @media only screen and (max-width: 720px) {
   .nav {
@@ -754,7 +822,10 @@ body {
       margin: 1rem; }
 
   .home-popup {
-    overflow: auto; } }
+    overflow: auto; }
+
+  .contact-content {
+    flex-direction: column; } }
 @media only screen and (max-width: 490px) {
   .service-item-title {
     font-size: 1.5rem; }
